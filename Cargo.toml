@@ -8,6 +8,7 @@ edition = "2021"
 [dependencies]
 # remove bevy dynamic feature for release!
 bevy = { version = "0.9.1", features = ["dynamic"] }
+bevy-inspector-egui = "0.17.0"
 
 [profile.dev]
 opt-level = 1
